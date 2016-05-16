@@ -1,0 +1,166 @@
+@import 'fonts.css';
+
+html, body {
+    font-family: 'FontAwesome', Arial, sans-serif;
+    font-size: 0.95em;
+    color:#7a7a7a;
+}
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+	background-color:#fff;
+	color:#00687a;
+	position:relative;
+	top:0;
+	left:0;
+	right:0;
+	width:100%;
+}
+#headerband {
+    background-color:#0087a0;
+    position:fixed;
+    height:45px;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index:0;
+    width:100%;
+}
+#back {
+    margin-top:80px;
+}
+#logoklant {
+    width:150px;
+    height:45px;
+    background-image: url(../../img/Bertem/logo_small.png);
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-bottom:16px;
+    position:fixed;
+    top:0px;
+}
+#title {
+	font-family: 'roboto_slabregular', Georgia, Serif;
+    font-size:1.8em;
+    color: #0087a0;
+    margin-top:10px;
+    margin-left: 10px;
+}
+#vergTitle {	
+}
+#content {
+    background: #fff;
+    margin-bottom:80px;
+    position:relative;
+}
+#footer {
+	background-color: #0087a0;
+    height: 60px;
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+ul {
+    list-style-type: disc;
+    color:#7a7a7a;
+}
+li {
+    margin-bottom: 10px;
+}
+
+
+/* -------------------------- ZOEKEN -------------------------- */
+
+#zoekparams select {
+    font-family: 'FontAwesome' , Arial, sans-serif;
+    font-size: 0.95em;
+}
+#zoekparams input[type="text"] {
+    border:1px solid #cd2559;
+    font-family: 'FontAwesome' , Arial, sans-serif;
+    font-size: 0.95em;
+    background-color: #fdf4f7;
+    height: 30px;
+    color:#7a7a7a;
+}
+#zoekparams .DropDownlist {
+    border: 1px solid #cd2559 !important;
+    background-color: #fdf4f7;
+    font-family: 'FontAwesome', Arial, sans-serif;
+    font-size: 0.95em;
+    height: 36px !important;
+}
+#Opzoeken input[type="submit"],
+#WisCriteria input[type="submit"] {
+	color: #fff;
+	border: 1px solid #cd2559;
+	background-color: #cd2559;
+    font-size: 0.95em;
+    height: 36px;
+}
+#Opzoeken input[type="submit"]:hover,
+#WisCriteria input[type="submit"]:hover {
+	background-color: #9b1c45;
+}
+#searchBox input[type="text"] {
+    border:1px solid #cd2559;
+    font-family: 'FontAwesome', Arial, sans-serif;
+    font-size: 1em;
+    background-color: #fdf4f7;
+    height: 36px;
+    color:#7a7a7a;
+}
+#searchBox input[type="submit"] {
+	border: none;
+}
+#WisCriteria input[type="submit"]:hover,
+#Opzoeken input[type="submit"]:hover, 
+#searchBox input[type="submit"]:hover{
+	background-color: #9b1c45;
+}
+	
+/* -------------------------- ZOEKEN -------------------------- */
+
+#vergaderingen a:link, #vergaderingen a:visited, #zoekResultaat a:link, #zoekResultaat a:visited,#inhoudsOpgave a:link, #inhoudsOpgave a:visited,#inhoudNotulenLink a:link,#inhoudNotulenLink  a:visited, #back  a:link, #back  a:visited {
+    color: #00a9d0;
+    text-decoration: none;
+}
+#vergaderingen a:hover, #zoekResultaat a:hover, #inhoudsOpgave a:hover,#inhoudNotulenLink a:hover, #back  a:hover {
+    color: #cd2559;
+    text-decoration: none;
+}
+#vergaderingen a:active, #zoekResultaat a:active, #inhoudsOpgave a:active,#inhoudNotulenLink a:active, #back  a:active {
+    color: #00a9d0;
+}
+.back {
+    color:#000;
+}
+
+
+/* -------------------------- OVERLAY MENU -------------------------- */
+
+.overlayTitle {
+    background: #cd2559;
+    color:#fff;
+    font-family: 'roboto_slabregular';
+}
+.overlaymenu {
+ 	border: 1px solid #cd2559;
+ 	background: #fff;
+}
+.overlaymenu button, .overlaymenu input[type="submit"]{
+	color: #fff;
+	border: 1px solid #cd2559;
+	background-color: #cd2559;
+	height:30px !important;
+}
+.overlaymenu button:hover, .overlaymenu input[type="submit"]:hover {
+	background-color: #9b1c45;
+}
+
+/* -------------------------- OVERLAY MENU -------------------------- */

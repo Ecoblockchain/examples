@@ -1,0 +1,223 @@
+#header {
+	box-sizing:border-box;
+}
+#logo {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+#logo:hover {    
+    cursor:pointer;   
+}
+#title {
+    box-sizing: border-box;
+}
+#vergTitle {
+    display: inline-block;
+}
+#footer {
+    position: fixed;
+    z-index: 101;
+}
+#icons tr, #icons td {
+    cursor:default;
+}
+#icons tr:hover, #icons td:hover {
+    cursor:default;
+}
+#vergaderingen,#geenLicentie {
+    margin-left:50px;
+    margin-right:50px;
+    padding-top: 30px;
+}
+#spaceHyperlink {
+    margin-left:30px;
+    padding-top:5px;
+}
+
+/* -------------------------- ZOEKEN -------------------------- */
+
+#zoekparams {
+    margin-right: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 30px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    float: left;
+    border: 1px solid #ccc;
+    width: 350px;
+}
+#zoekparams .label {
+    margin:0px;
+    display:inline-block;
+    width:100%;
+    text-align: left;
+}
+#zoekparams .label1 {
+    margin:0px; 
+    display:inline-block;   
+    width:98px;
+} 
+#zoekparams .label2 {
+    margin-left:20px; 
+    display:inline-block;   
+    width:87px;
+}
+#zoekparams input[type="text"] {
+    margin-bottom:10px;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+    margin-left:0px !important;
+    width:99%;
+    padding-right: 0px !important;
+}
+#zoekparams select {
+    margin:0px;
+    padding:0px;
+    display:inline-block;
+    width:160px;
+    border:1px solid black;
+    margin:0px;
+}
+.labelvan {
+    float: left;
+}
+.labeltot {
+    float: right;
+    margin-bottom:20px;
+}
+input[type="submit"] {
+    cursor: pointer;
+}
+.inputField {
+}
+#searchBox {
+}
+#searchBox input[type="text"] {
+    width: 70%;
+    float:left;
+}
+#Opzoeken {
+}
+#Opzoeken input[type="submit"] {
+    width: 100%;   
+}
+#WisCriteria {
+    margin-top:10px;
+}
+#WisCriteria input[type="submit"] {
+    width:100%;
+    cursor: pointer; 
+}
+#zoekResultaat {
+    position: relative;
+    float:left;
+    margin-top: 20px;
+}
+
+/* -------------------------- ZOEKEN -------------------------- */
+
+#loadingPanel {
+	position:absolute;
+	width:95%;
+	height:100%;
+	z-index:1001; 
+	background-image:url(../img/loader.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	opacity:1;
+	-moz-opacity:1;
+	filter:alpha(opacity=100);
+}
+.paddingTop10 {
+        padding-top:10px;
+}
+.paddingTop20 {
+        padding-top:20px;
+}
+.italic {
+    font-style:italic;
+}
+.clear {
+    clear: both;
+}
+.bold {
+    font-weight:bold;
+}
+#inhoudNotulenLink {
+    margin:20px 20px 20px 20px;
+    float:right
+}
+#info {
+    width: 15%;
+    font-size:0.7em;
+    float: left;
+    text-align: right;
+    padding-right: 5px;
+    box-sizing: border-box;
+    position:absolute;
+    bottom:3px;
+    right:3px;
+}
+
+/* -------------------------- OVERLAY MENU -------------------------- */
+
+#overlay {
+    opacity: 0.5;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 99999;
+    display:none;
+}
+.overlayTitle {
+    margin-bottom: 15px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.overlaymenuInner {
+    padding: 10px;
+}
+.meldingMessage {
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    float:left;
+    padding-bottom:10px;
+}
+.overlaymenuButtonsRight {
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:right;
+}
+.overlaymenu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 565px;
+    margin-top: -200px;
+    margin-left: -283px;
+    z-index: 99999999;
+    display:none;
+}
+.overlayValidatieButtonsRight {
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:right;
+}
+.overlaymenu button, .overlaymenu input[type="submit"] {
+    min-width: 80px;
+    margin-right:10px;
+    padding: 5px;
+}
+.overlaymenu button:hover, .overlaymenu input[type="submit"]:hover {	
+	cursor: pointer;
+}
+
+/* -------------------------- OVERLAY MENU -------------------------- */

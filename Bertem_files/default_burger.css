@@ -1,0 +1,283 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+	z-index:105;
+	box-sizing:border-box;
+}
+#back {
+    margin-left: 10px;
+}
+#logo {
+	position: fixed;
+    top: 5px;
+    right: 5px;
+    z-index:200;
+}
+#logoklant {
+    z-index:100;
+}
+#logo:hover {    
+    cursor:pointer;   
+    }
+#vergTitle {	
+	display:block;
+}
+#footer {
+    z-index: 101;
+    padding-top: 5px;
+}
+#icons tr, #icons td {
+    cursor:default;
+}
+#icons tr:hover, #icons td:hover {
+    cursor:default;
+}
+@media screen and (max-width:482px) {
+    #icons img {
+        margin-left:5px;
+	    box-sizing:border-box;
+	    padding:2px;
+	    padding-left:2px;
+	    padding-right:2px;
+	    border:none;
+	    border-bottom:4px solid #e6e6e6;
+	    width:40px;
+    }
+}
+@media screen and (max-width:358px) {
+    #icons img {
+        margin-left:5px;
+	    box-sizing:border-box;
+	    padding:2px;
+	    padding-left:2px;
+	    padding-right:2px;
+	    border:none;
+	    border-bottom:4px solid #e6e6e6;
+	    width:40px;
+    }
+}
+@media screen and (max-width:278px) {
+    #icons img {
+        margin-left:5px;
+	    box-sizing:border-box;
+	    padding:2px;
+	    padding-left:2px;
+	    padding-right:2px;
+	    border:none;
+	    border-bottom:4px solid #e6e6e6;
+	    width:30px;
+    }
+}
+#vergaderingen,#geenLicentie {
+    margin-left:10px;
+	margin-right:10px;
+	padding-top:15px;
+}
+#spaceHyperlink {
+    margin-left:10px;
+    padding-top:5px;
+}
+
+/* -------------------------- ZOEKEN -------------------------- */
+
+#zoekparams {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 30px;
+       
+}
+#zoekparams .label {
+    margin:0px;
+    width:100%;
+}
+#zoekparams .label2 {
+    margin:0px;
+    display:inline-block;
+    width:100px;
+}
+#zoekparams .label3 {
+    margin:0px;
+    display:inline-block;
+    width:96px;
+}
+#zoekparams input[type="text"] {
+    margin-bottom:10px;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+    width:99%;
+}
+#zoekparams select {
+    margin:0px;
+    padding:0;
+    display:inline-block;
+    height:1.8em;
+    width:100%;
+    margin-bottom:10px;
+}
+#zoekparams .DropDownlist {
+}
+.labelvan {
+    float: left;
+    width:47.5%;
+    margin-right: 5%
+}
+.labeltot {
+    float: right;
+    margin-bottom:20px;
+    width: 47.5%;
+}
+#searchBox {
+    position:relative;
+    margin-top: 70px;
+    margin-bottom: -50px;
+}
+#searchBox input[type="submit"] {
+    width:30px;
+    height: 30px;
+    box-sizing: border-box !important;
+    position: absolute;
+    right: 2.5%;
+    top: 0px;
+    display: block;
+    background-image: url("../Img/search.png") ;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    color: transparent;
+}
+#searchBox input[type="submit"]:hover {
+    background-color: transparent !important;
+}
+#searchBox input[type="text"] {
+    width:95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    box-sizing: border-box !important;
+    padding-right: 30px;
+}
+#Opzoeken input[type="submit"],
+#WisCriteria input[type="submit"] {
+    width:100%;    
+    margin-top:7px;
+}
+#Opzoeken input[type="submit"]:hover,
+#WisCriteria input[type="submit"]:hover {
+    cursor: pointer;
+}
+input[type="submit"] {
+    cursor: pointer; 
+}
+#zoekResultaat {
+    margin-left:10px
+}
+	
+/* -------------------------- ZOEKEN -------------------------- */
+
+#loadingPanel {
+	position:absolute;
+	width:95%;
+	height:100%;
+	z-index:1001; 
+	background-image:url(../img/loader.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	opacity:1;
+	-moz-opacity:1;
+	filter:alpha(opacity=100);
+}
+.paddingTop10 {
+        padding-top:10px;
+}
+.paddingTop20 {
+        padding-top:20px;
+}
+.italic {
+    font-style:italic;
+    display: none;
+    
+}
+.clear {
+    clear: both;
+}
+.bold {
+    font-weight:bold;
+}
+.back {
+}
+#inhoudNotulenLink {
+    margin:20px 20px 20px 20px;
+    float:right
+}
+#info {
+    width: 15%;
+    font-size:0.7em;
+    float: left;
+    text-align: right;
+    padding-right: 5px;
+    box-sizing: border-box;
+    position:absolute;
+    bottom:3px;
+    right:3px;
+}
+
+/* -------------------------- OVERLAY MENU -------------------------- */
+
+#overlay {
+	opacity: 0.5; 
+    background: #000; 
+    width: 100%;
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    position: fixed; 
+    z-index:99999;
+    display:none;
+}
+.overlayTitle {
+    margin-bottom: 15px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.overlaymenuInner {
+    padding: 10px;
+}
+.meldingMessage {
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    float:left;
+    padding-bottom:10px;
+}
+.overlaymenuButtonsRight {
+   margin-top:0px;
+}
+.overlaymenu {
+ 	position:fixed;
+ 	top:50%;
+	min-height:210px;
+	margin-top:-150px;
+    z-index:99999999;
+	display:none;
+	left:4%;
+	right:4%;
+}
+.overlayValidatieButtonsRight {
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:right;
+}
+.overlaymenu button, .overlaymenu input[type="submit"] {
+    margin-right:10px;
+    padding: 5px 10px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.overlaymenu button:hover, .overlaymenu input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+/* -------------------------- OVERLAY MENU -------------------------- */

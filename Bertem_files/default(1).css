@@ -1,0 +1,206 @@
+@import 'fonts.css';
+
+html, body {
+    font-family: 'FontAwesome', Arial, sans-serif;
+    font-size: 1em;
+    color:#7a7a7a;
+}
+#wrapper {
+    margin: 1em 0% 2.5em 5%;
+    padding: 0em;
+}
+#header {
+	background-color:#fff;
+	color:#00687a;
+}
+#back {
+    margin-top: 30px;
+}
+#logoklant {
+    width:260px;
+    height:80px;
+    background-image: url(../../img/Bertem/logo.png);
+    background-repeat: no-repeat;
+    margin-left: -16px;
+    margin-bottom:16px;
+}
+#title {
+    font-family: 'roboto_slabregular', Georgia, Serif;
+    font-size:2em;
+    color: #0087a0;
+    margin-top:6px;
+}
+#vergTitle {
+}
+#content {
+    background: #fff;
+    margin-bottom:80px;
+}
+#footer {
+    background-color: #0087a0;
+    width: 100%;
+    height: 72px;
+    bottom: 0;
+    left: 0;
+    border-top: none;
+    color:#fff;
+}
+ul {
+    list-style-type: disc;
+    color:#7a7a7a;
+}
+li {
+    margin-bottom: 10px;
+}
+
+/* -------------------------- ZOEKEN -------------------------- */
+
+#zoekparams {
+    border-bottom: 1px solid #7a7a7a;
+}
+#zoekparams input[type="text"],
+#searchBox input[type="text"] {
+    border:1px solid #cd2559;
+    font-family: 'FontAwesome', Arial, sans-serif;
+    font-size: 1em;
+    background-color: #fdf4f7;
+    height: 36px;
+    color:#7a7a7a;
+}
+#Opzoeken input[type="submit"],
+#searchBox input[type="submit"] {
+	color: #fff;
+	border: 1px solid #cd2559;
+    font-size: 1em;
+    background-color: #cd2559;
+    height: 40px;
+    margin-right:10px;
+    padding: 5px 15px;
+}
+#zoekparams select {
+    font-family: 'FontAwesome' , Arial, sans-serif;
+    font-size: 1em;
+    height:40px !important;
+}
+#searchBox {
+    position: absolute;
+    right: 2%;
+    top: 50px;
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 400px !important;
+    margin-right: 30px;
+}
+input[type="submit"]:hover {
+    background-color: #9b1c45;
+}
+#WisCriteria input[type="submit"] {
+	color: #fff;
+	border: 1px solid #cd2559;
+	background-color: #cd2559;
+    font-size: 1em;
+    height: 40px;
+}
+#WisCriteria input[type="submit"]:hover,
+#Opzoeken input[type="submit"]:hover,
+#searchBox input[type="submit"]:hover{
+	background-color: #9b1c45;
+}
+.DropDownlist {
+    border: 1px solid #cd2559 !important;
+    background-color: #fdf4f7;
+    font-family: 'FontAwesome' , Arial, sans-serif;
+    font-size: 1em;
+    height: 30px !important;
+}
+
+/* -------------------------- ZOEKEN -------------------------- */
+
+#vergaderingen a:link, #vergaderingen a:visited, #zoekResultaat a:link, #zoekResultaat a:visited,#inhoudsOpgave a:link, #inhoudsOpgave a:visited,#inhoudNotulenLink a:link,#inhoudNotulenLink  a:visited, #back  a:link, #back  a:visited {
+    color: #00a9d0;;
+    text-decoration: none;
+}
+#vergaderingen a:hover, #zoekResultaat a:hover, #inhoudsOpgave a:hover,#inhoudNotulenLink a:hover, #back  a:hover {
+    color: #cd2559;
+    text-decoration: none;
+}
+#vergaderingen a:active, #zoekResultaat a:active, #inhoudsOpgave a:active,#inhoudNotulenLink a:active, #back  a:active {
+    color: #00a9d0;
+}
+.back {
+    color:#000;
+}
+
+/* -------------------------- OVERLAY MENU -------------------------- */
+
+.overlayTitle {
+    background: #cd2559;
+    color:#fff;
+    font-family: 'roboto_slabregular', Georgia, Serif;
+}
+.overlaymenu {
+    border: 1px solid #cd2559;
+    background: #fff;
+}
+.overlaymenu button, .overlaymenu input[type="submit"] {
+	color: #fff;
+   	background-color: #cd2559;
+    border: 1px solid #cd2559;
+    height: 40px !important;
+    font-family: 'FontAwesome', Arial, sans-serif;
+    font-size: 1em;
+}
+.overlaymenu button:hover, .overlaymenu input[type="submit"]:hover {
+	background-color: #9b1c45;
+}
+
+
+/* -------------------------- OVERLAY MENU -------------------------- */
+
+/* -- added by PC to get more readable code--*/
+.ffvfs10 {
+  font-family:Verdana; font-size:10pt
+}
+.m0pl0 {
+  margin:0pt;
+  padding-left:0pt;
+}
+
+.liststyle {
+  -aw-font-family:&#39;Symbol&#39;; -aw-font-weight:normal; -aw-number-format:&#39;?&#39;; font-family:serif; font-size:10pt; margin:0pt 0pt 0pt 27.6pt; padding-left:8.4pt; text-indent:0pt;
+}
+.list-style-2 {
+  -aw-font-family:&#39;Courier New&#39;; -aw-font-weight:normal; -aw-number-format:&#39;o&#39;; font-family:serif; font-size:10pt; margin:0pt 0pt 0pt 11pt; padding-left:7pt; text-indent:0pt;
+}
+.bold {
+  font-family:Verdana; font-size:12pt; font-weight:bold;
+}
+.spatie {
+  border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; margin:0pt; padding-top:1pt;
+}
+.underline-klein {
+font-family:Verdana; font-size:10pt; text-decoration:underline;
+
+}
+.table-264 {
+  padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:264.55pt;
+}
+.table-208 {
+  padding-left:5.4pt; padding-right:5.4pt; vertical-align:top; width:208.3pt;
+}
+.m00036 {
+  margin:0pt 0pt 0pt 36pt; text-indent:-18pt;
+}
+.normal{
+  font-family:Verdana; font-size:10pt; font-weight:normal;
+}
+.border-solid {
+  border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding:1.12pt; vertical-align:top; width:138.75pt;
+}
+.border-solid-2 {
+ border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding:1.12pt; vertical-align:top; width:182.9pt;
+}
+
+.bold-klein {
+  font-family:Verdana; font-size:10pt; font-weight:bold;
+}
